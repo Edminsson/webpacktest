@@ -1,4 +1,4 @@
 module.exports = {
-    hi: 'Hejsan friends',
+    hi: 'Hi friends',
     event: 'Some Random Event'
 }

@@ -6,14 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -o",
-    "build": "rimraf dist && webpack --watch"
+    "build": "rimraf dist && webpack",
+    "dev": "webpack-dev-server",
+    "dev2": "node dev-server.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "rimraf": "^2.6.1",
     "webpack": "^2.2.1",
-    "rimraf": "^2.6.1"
+    "webpack-dev-server": "^2.4.1"
   }
 }

@@ -71,7 +71,7 @@
 /***/ (function(module, exports) {
 
 module.exports = {
-    hi: 'Hejsan friends',
+    hi: 'Hi amigos',
     event: 'Some Random Event'
 }
 
@@ -83,6 +83,10 @@ var messages = __webpack_require__(0)
 
 var app = document.getElementById('app');
 app.innerHTML = "<p>" + messages.hi +"</p>";
+
+if (false) {
+    module.hot.accept();
+}
 
 /***/ })
 /******/ ]);
