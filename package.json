@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -o",
-    "build": "rimraf bundle.js && webpack app.js bundle.js"
+    "build": "rimraf dist && webpack --watch"
   },
   "author": "",
   "license": "ISC",
