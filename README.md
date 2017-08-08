@@ -7,4 +7,4 @@ Hela sidan laddas om.
 -Skapar dev-server-js och konfar webpack.config.js och app.js för Hot Module Replacement
 
 Ska testa att göra en vanlig commit i master-branchen och sen lägga master-branch i github som en annan
-branch genom att skriva "git push origin annan"
+branch genom att skriva "git push origin annan". Det funkade inte så jag fick först skapa en ny branch.
